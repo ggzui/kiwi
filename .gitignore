@@ -1,0 +1,19 @@
+# Editor directories and files
+.idea
+.fleet
+
+# Package Manager
+node_modules
+.pnpm-debug.log*
+
+# System
+.DS_Store
+
+# Bundle
+dist
+coverage
+
+# local env files
+tmp
+*.local
+.eslintcache
