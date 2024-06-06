@@ -20,6 +20,9 @@ importers:
       '@eslint-react/eslint-plugin':
         specifier: ^1.5.14
         version: 1.5.14(@typescript-eslint/parser@7.12.0(eslint@9.4.0)(typescript@5.4.5))(eslint@9.4.0)(typescript@5.4.5)
+      '@kiwi/ts-config':
+        specifier: workspace:*
+        version: link:internal/ts-config
       '@types/node':
         specifier: ^20.14.2
         version: 20.14.2
@@ -47,6 +50,8 @@ importers:
       typescript:
         specifier: ^5.4.5
         version: 5.4.5
+
+  internal/ts-config: {}
 
 packages:
 
