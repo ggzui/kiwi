@@ -8,7 +8,7 @@ const config = {
     './pages/**/*.{ts,tsx}',
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
-    './node_modules/@kiwi/ui/src/**/*.{ts,tsx}',
+    './node_modules/@kiwi/ui/**/*.{ts,tsx}',
   ],
   prefix: '',
   theme: {
